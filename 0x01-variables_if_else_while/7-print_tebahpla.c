@@ -12,9 +12,9 @@ int main(void)
 	c = 'z';
 	while
 		(c >= 'a') {
-		       putchar(c);
+			putchar(c);
 			c--;
-	 	}
+		}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
